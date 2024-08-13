@@ -20,7 +20,7 @@ export const ChatConversations: React.FC<IChatConversationsProps> = ({
   }, [conversations]);
 
   return (
-    <div className="w-full max-w-4xl mx-auto px-4">
+    <div className="w-3/4 max-w-4xl mx-auto px-4">
       {conversations.map((chatEntry) => (
         <ChatMessage
           key={`chatbot-message-${chatEntry.id}`}
