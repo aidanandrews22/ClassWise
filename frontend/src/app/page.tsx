@@ -8,7 +8,7 @@ import { MessageRole } from '../enums/MessageRole';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMailReply } from "@fortawesome/free-solid-svg-icons";
 
-const BACKEND_URL = 'http://localhost:8000'; // Update this with your backend URL
+const BACKEND_URL = 'http://localhost:8000'; // update with api url
 
 export default function Home() {
   const [isQuerying, setIsQuerying] = useState<boolean>(false);
